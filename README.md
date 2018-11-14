@@ -11,3 +11,6 @@ Alex Masciotra
 Nayem Alam
 
 Thomas Philippon
+
+### Resources:  
+https://github.com/TusharChugh/Vehicle-Detection-HOG (Seems to be same problem as us)
