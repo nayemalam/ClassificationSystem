@@ -108,4 +108,5 @@ MIO-TCD-Classification/
 MIO-TCD-Localization/
 *.data
 *.clf
+*.loc
 backup/
