@@ -95,6 +95,7 @@ Moreover, if we had more than two classes, then we can expect precision and reca
 A confusion matrix on a validation set can be seen in Fig. 1 for the SVM classifier and Fig. 2 for the KNN classifier.
  
 **Confusion Matrix of SVM.**
+
 ![Confusion Matrix of SVM](https://res.cloudinary.com/nayemalam/image/upload/v1543734368/svm.png)
 
 The confusion matrix demonstrates the accuracy and recall of the SVM validation on the training data. The y-axis represents the actual label of the training image, and the x-axis represents the label that we predict using our SVM. The values along the diagonal are probabilities, describing the chance for the SVM to correctly classify the image label.
@@ -102,6 +103,7 @@ The confusion matrix demonstrates the accuracy and recall of the SVM validation 
 Observing the results in the confusion matrix (Fig. 1), we can see that the SVM has difficulties identifying non-motorized vehicles, as it has the lowest recall value of correct identification, at 0.511. Also, it can be deduced that non-motorized vehicles are most often predicted as an articulated truck, when even to the human eye has very similar shape. 
  
 **Confusion Matrix of KNN.**
+
 ![Confusion Matrix of KNN](https://res.cloudinary.com/nayemalam/image/upload/v1543734368/knn.png)
 
 The confusion matrix of KNN shows us that it has trouble detecting pedestrians, as it classifies them as either background or bicycles. All three categories (bicycle, pedestrian, background) are categories that don’t show box shaped objects like cars, which would explain why they can be confusing to interpret. The general shape of a pedestrian is very similar to objects in a background (e.g. a pole); pedestrians can appear as a silhouette in background images. The shape of a human is also present in the bicycle images as a bicycle image intrinsically have a human in them.   
