@@ -76,10 +76,12 @@ We performed k-fold cross validation by first randomizing the features’ order 
 To evaluate the performance, the following metrics were obtained: the average classification accuracy, precision and recall across validations including standard deviations can be found on Table I.
 
 **Classification Metrics**
+
 | Classifiers | Accuracy | Standard dev. | Precision | Recall  |
 |-------------|----------|---------------|-----------|---------|
 | SVM         | 0.93677  | 0.00812       | 0.65053   | 0.64953 |
 | KNN         | 0.94658  | 0.01412       | 0.72876   | 0.70371 |
+
 *Average classification accuracy across validations; standard deviation, precision and recall*
 
 Notice, the precision and recall values are not consistent with accuracy because they are not evaluating the same statistics. Accuracy returns the percentage of true positives and true negatives of every prediction. As an example, this means that a car label that is actually a bicycle will return a true negative for a bus, driving up the accuracy percentage. The accuracy metric is erroneous since we can only return one label at a time. That is, for every bad prediction we obtain, there are at least 9 true negatives. The precision metric computes the actual percentage of an image belonging to a certain class given the fact that we predicted the image was of the same class. The recall metric does the complete opposite; given that the image actually belongs to a certain class, what is the percentage we can predict of that class. 
