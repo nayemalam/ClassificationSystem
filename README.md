@@ -26,7 +26,7 @@ https://github.com/WDDnguyen/ECSE415_Project (Github of someone else in our clas
 ## Localization and Classification (Image Detection Machine Learning Algorithm)
 ECSE415 – Intro to Computer Vision
 
-<p align="center">
+
 | Name             | ID       |
 |------------------|----------|
 | Nayem Alam       | 260743549| 
@@ -34,7 +34,7 @@ ECSE415 – Intro to Computer Vision
 | Alex Masciotra   | 260746829| 
 | Thomas Philippon | 260747645| 
 | Shawn Vosburg    | 260743167| 
-</p>
+
 
 
 ##### Abstract— 
