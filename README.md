@@ -139,10 +139,12 @@ Moreover, the true bounding boxes were obtained from the csv file (gt_train) tha
 In order to evaluate our classifier, we used the localization predicted by our localizer.  The following metrics were obtained: the accuracy, the prediction, and the recall of our localizer and classifier can be found on Table II. 
 
 **Dice Coefficient Metrics**
+
 | Images     | Dice Avg. | Standard dev. |
 |------------|-----------|---------------|
 | Random 300 | 0.127     | 0.038         |
 | Best 300   | 0.340     | 0.154         |
+
 *Mean DICE coefficient & standard deviation of localizer + classifier* 
 
 The results in Table II are represented in the binomial distributions in Fig. 3 and Fig. 4.  
@@ -163,6 +165,7 @@ In order to evaluate our classifier, we used the localization predicted by our l
 |-----------|----------|---------------|-----------|---------|
 | Random 300| 0.460    | 0.042         | 0.112     | 0.338   |
 | Best 300  | 0.586    | 0.055         | 0.297     | 0.645   |
+
 *Accuracy, prediction and recall of localizer + classifier*
 
 It can be noted that the values obtained in Table II describe a similar pattern for both the Random 300 and the Best 300 runs. The precision in both cases are low relative to the recall obtained. One reason to explain this is that our sliding window size was way too big compared to the ground truths. This would explain why FP is high (i.e. precision is low) compared to FN, which is low (i.e. recall is high). The accuracy of our localizer is also quite low for a localizer, signifying that not enough training images are used during the building of our classifier and/or not enough sliding windows are used per images in the localizer. Appendix III and Appendix IV show results of a sample result of the Random 300 and Best 300 runs respectively.  
