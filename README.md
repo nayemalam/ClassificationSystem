@@ -20,3 +20,8 @@ https://towardsdatascience.com/detecting-vehicles-using-machine-learning-and-com
 https://github.com/bdjukic/CarND-Vehicle-Detection  (the author of the previous article's github)  
 https://github.com/maxence517/ECSE-415_FinalProject (Github of someone in our class)  
 https://github.com/WDDnguyen/ECSE415_Project (Github of someone else in our class - kNNneighbor)
+
+### ----- Report -----
+<p align="center">
+  centering text?
+</p>
