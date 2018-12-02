@@ -21,7 +21,7 @@ https://github.com/bdjukic/CarND-Vehicle-Detection  (the author of the previous 
 https://github.com/maxence517/ECSE-415_FinalProject (Github of someone in our class)  
 https://github.com/WDDnguyen/ECSE415_Project (Github of someone else in our class - kNNneighbor)
 
-### -------------------
+#
 
 ## Localization and Classification (Image Detection Machine Learning Algorithm)
 ECSE415 – Intro to Computer Vision
@@ -150,9 +150,11 @@ In order to evaluate our classifier, we used the localization predicted by our l
 The results in Table II are represented in the binomial distributions in Fig. 3 and Fig. 4.  
  
 ![Random300 Img](https://res.cloudinary.com/nayemalam/image/upload/v1543734368/random300.png)
+
 *Binomial distribution of DICE coefficients of Random 300*
 
 ![Best300 Img](https://res.cloudinary.com/nayemalam/image/upload/v1543734368/best300.png)
+
 *Binomial distribution of DICE coefficients of Best 300*
 
 Our localizer provides consistent results for the Random 300 run with the standard deviation being very low. Most of the DICE coefficient are located around the mean. On the contrary the Best 300 has a DICE coefficient that is farther apart, hinting to our hidden bias of choosing the best 300 images.  
